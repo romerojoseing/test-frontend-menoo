@@ -25,7 +25,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.appService.getInfo().subscribe(result => {
-      console.log(result)
       this.items = result;
     })
   }
