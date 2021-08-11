@@ -1,27 +1,82 @@
-# TestMenoo
+# TestFrontendMenoo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+# Testing: The Menoo API
 
-## Development server
+_This is a challenge from testing, specialized in frontend develop, application where the Menoo API is consumed and applied._
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## [Try the live demo](https://romerojoseing.github.io/test-frontend-menoo/) ⚡
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started 🚀
 
-## Build
+_These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system._
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+See **Requirements** to know the minimum standards to use the project.
 
-## Running unit tests
+### Requirements 📋
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+_You need to have the following technologies installed to use this project._
 
-## Running end-to-end tests
+Any browser to open the project.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* [Google Chrome](https://www.google.com/intl/es/chrome/)
+* [Node.js - npm](https://nodejs.org/es/) - *JavaScript runtime*
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installing 🔧
+
+_To use this project you will need to clone this repository or download it to your computer. If you choose to download it directly in the upper right part of the repository you will have the option, if it is not your case you can clone it using the following command._
+
+```ssh
+  $ git clone https://github.com/romerojoseing/test-frontend-menoo.git
+```
+
+<br>
+
+## Use Project 👓
+
+_Follow this steps to run the project, install dependencies necessaries._
+
+```ssh
+  $ cd test-frontend-menoo
+```
+
+```ssh
+  $ npm install
+```
+
+```ssh
+  $ ng serve
+```
+
+_Open the browser at the following link: [http://localhost:4200](http://localhost:4200)_
+
+<br>
+
+## Built With 🛠️
+
+_Technologies used in the project:_
+
+* [HTML 5](https://es.wikipedia.org/wiki/HTML) - Layout and web structure.
+* [CSS 3](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada) - Style design.
+* [Bootstrap](https://getbootstrap.com/) - css framework.
+* [JavaScript](https://es.wikipedia.org/wiki/JavaScript) - Animations and functionalities.
+* [Angular](https://angular.io//) - javascript framework.
+
+<br>
+
+## Author ✒️
+
+_If you like what I do, visit my website and share my content, you can also follow me on my networks to be aware of new publications and interesting projects that I will be developing._
+
+Designed with 💖 - by [Romero José](https://romerojose.com/)
+
+### Social networks
+
+* **GitHub** - *Repositories of my latest projects* - [romerojoseing](https://github.com/romerojoseing)
+* **CodePen** - *Interesting mini projects and tests* - [romerojoseing](https://codepen.io/romerojoseing)
+* **LinkedIn** - *Professional developer profile* - [romerojoseing](https://www.linkedin.com/in/romerojoseing/)
+* **Instagram** - *Documenting my journey* - [romerojoseing](https://www.instagram.com/romerojoseing/)
+* **Facebook** - *Publications and promotional content* - [romerojoseing](https://www.facebook.com/romerojoseing)
+* **Twitter** - *Random comments and more* - [romerojoseing](https://twitter.com/romerojoseing)
