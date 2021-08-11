@@ -5,9 +5,18 @@
     </div>
     
     <div class="item" *ngIf="this.items != undefined">
-      <div class="item-list" *ngFor="let item of items | FilterPipe: searchValue" (click)="sendItem(item)">
+      <div class="item-list" *ngFor="let item of items | FilterPipe: searchValue | paginate : {
+        itemsPerPage: pageSize,
+        currentPage: page,
+        totalItems: count
+      };" (click)="sendItem(item)">
         <img src="assets/images/iso.svg" alt="">
         <p>{{item.Name}}</p>
+      </div>
+
+      <div class="paginator">
+        <pagination-controls class="pagination" (pageChange)="handlePageChange($event)" previousLabel="" nextLabel="">
+        </pagination-controls>
       </div>
     </div>
 

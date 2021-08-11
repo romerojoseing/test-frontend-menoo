@@ -223,6 +223,14 @@ header{
 }
 
 
+/* ---------- Paginator ---------- */
+.paginator{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+
 /* ---------- Loader ---------- */
 .loader{
   display: flex;

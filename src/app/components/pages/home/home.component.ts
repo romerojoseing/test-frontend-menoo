@@ -13,6 +13,11 @@ export class HomeComponent implements OnInit {
   searchValue = '';
   items;
 
+  /* ---------- Pagination ---------- */
+  page = 1;
+  count = 0;
+  pageSize = 10;
+
   constructor(
     private appService: AppService,
     private router: Router
@@ -23,6 +28,11 @@ export class HomeComponent implements OnInit {
       console.log(result)
       this.items = result;
     })
+  }
+
+  /* ---------- Pagination ---------- */
+  handlePageChange(event: number): void {
+    this.page = event;
   }
 
   sendItem(item){
