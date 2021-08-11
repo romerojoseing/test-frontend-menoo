@@ -22,17 +22,17 @@ const routes: Routes = [
         loadChildren: () => import('./components/pages/details/details.module').then(m => m.DetailsModule)
       },
       { path: '', redirectTo: '', pathMatch: 'full' },
+      {
+        path: 'error',
+        component: ErrorsComponent
+      },
+      {
+        path: 'error/:type',
+        component: ErrorsComponent
+      },
+      { path: '**', redirectTo: 'error', pathMatch: 'full' }
     ]
   },
-  {
-    path: 'error',
-    component: ErrorsComponent
-  },
-  {
-    path: 'error/:type',
-    component: ErrorsComponent
-  },
-  { path: '**', redirectTo: 'error', pathMatch: 'full' }
 ];
 
 @NgModule({

@@ -1,1 +1,18 @@
-<p>home works!</p>
+<section>
+  <div class="wrapper">
+    <div class="filter">
+      <input class="filter-input" [(ngModel)]=searchValue placeholder="Item filter..." type="search">
+    </div>
+    
+    <div class="item" *ngIf="this.items != undefined">
+      <div class="item-list" *ngFor="let item of items | FilterPipe: searchValue" (click)="sendItem(item)">
+        <img src="assets/images/iso.svg" alt="">
+        <p>{{item.Name}}</p>
+      </div>
+    </div>
+
+    <div class="loader" *ngIf="this.items == undefined">
+      <div class="loader-ripple"><div></div><div></div></div>
+    </div>
+  </div>
+</section>

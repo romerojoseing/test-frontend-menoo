@@ -7,8 +7,12 @@ import { environment } from '../../environments/environment';
 })
 export class AppService {
 
-  constructor(private http: HttpClient) { }
+  /* ---------- Item details ---------- */
+  itemDetails;
 
+  constructor(private http: HttpClient) { }
+  
+  /* ---------- Data ---------- */
   getInfo() {
     return this.http.get(environment.urlTest);
   }

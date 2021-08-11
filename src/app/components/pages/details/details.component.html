@@ -1,1 +1,28 @@
-<p>details works!</p>
+<section>
+  <div class="wrapper">
+    <div>
+      <div class="back-link">
+        <a routerLink="/">< Back to list</a>
+      </div>
+  
+      <div class="item">
+        <div class="item-details">
+          <div>
+            <p *ngIf="data != undefined">{{data.Name}} </p>
+            <p *ngIf="data != undefined">{{data.Price}} </p>
+            <p class="item-description" *ngIf="data != undefined">{{data.Description}} </p>
+          </div>
+          <img src="assets/images/iso.svg" alt="">
+        </div>
+      </div>
+  
+      <div class="redirect-link">
+        <a href="https://menoo.com.uy/" target="_blank">Ask for item details</a>
+        <div class="form">
+          <input class="text-input" placeholder="Enter item name..." type="text">
+          <button>Check</button>
+        </div>
+      </div>    
+    </div>
+  </div>
+</section>
